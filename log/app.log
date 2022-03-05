@@ -2722,3 +2722,37 @@
   role: 'Employee',
   name: 'Michael'
 }
+[2022-03-04T23:29:02.066] [DEBUG] default - {}
+[2022-03-04T23:29:13.643] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-04T23:29:13.821] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Richard',
+  role: 'Employee',
+  name: 'Michael'
+}
+[2022-03-04T23:29:14.064] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Richard',
+  role: 'Employee',
+  name: 'Michael'
+}
+[2022-03-04T23:39:08.873] [DEBUG] default - {}
+[2022-03-04T23:39:19.627] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-04T23:39:19.799] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Richard',
+  role: 'Employee',
+  name: 'Michael'
+}
+[2022-03-04T23:39:20.051] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Richard',
+  role: 'Employee',
+  name: 'Michael'
+}
+[2022-03-04T23:40:16.816] [DEBUG] default - {}
+[2022-03-04T23:40:16.831] [DEBUG] default - {}
