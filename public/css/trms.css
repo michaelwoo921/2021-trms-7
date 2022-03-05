@@ -1,0 +1,29 @@
+
+.trms-container{
+	background-color: rgb(9, 102, 102);
+}
+.trms-container .nav-link {
+	color:white;
+	display: flex;
+
+}
+
+.trms-body {
+	
+	color: #e7ecf0;
+	/* height: 150vh; */
+	padding: 50px;
+}
+.trms-img {
+  width: 100%;
+  height: 100%;
+}
+
+.trms-form {
+	color: rgb(117, 189, 50);
+	padding: 30px;
+}
+
+.trms-form-heading {
+	text-align: center;
+}
