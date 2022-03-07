@@ -35,6 +35,8 @@
 - As a Department Head, I can view all workers TRMS and approve or deny the requests forms approved by the direct supervisor of the worker.
 - As a Benco, I can view all workers TRMS and approve or deny the requests froms approved by the Department Head.
 
+- Upon the confirmation of satisfactory completion document, the monetary amount is awarded to the requestor
+
 ## To DO
 
 - Improve backend security related to authorization and authentication
