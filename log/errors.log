@@ -275,3 +275,25 @@
 [2022-03-06T13:39:33.643] [ERROR] default - null
 [2022-03-06T13:40:21.220] [ERROR] default - null
 [2022-03-06T13:43:09.453] [ERROR] default - null
+[2022-03-06T18:25:47.858] [ERROR] default - null
+[2022-03-06T18:28:17.560] [ERROR] default - null
+[2022-03-06T18:29:04.248] [ERROR] default - null
+[2022-03-06T18:30:03.886] [ERROR] default - null
+[2022-03-06T18:33:39.861] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2022-03-07T02:33:39.860Z,
+  requestId: 'B7S5T329PCH390I1NOTM7H7AEVVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 28.72857829735892
+}

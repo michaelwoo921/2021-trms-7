@@ -103,6 +103,7 @@ function AddTrmsComponent(props: PropsFromRedux) {
             id="tr_event_name"
             value={(props.trms as any)['event_name']}
             onChange={handleFormInput}
+            placeholder="Enter your input"
           ></input>
         </div>
 
