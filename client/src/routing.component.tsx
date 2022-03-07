@@ -61,7 +61,7 @@ export default function RouterComponent() {
               <li className="nav-item">
                 {user.name && (
                   <Link to="/" className="nav-link" onClick={logout}>
-                    {`${user.name} (Position: ${user.role}) `}
+                    {`${user.name} (Position: ${user.role}) `} {' Logout'}
                   </Link>
                 )}
               </li>

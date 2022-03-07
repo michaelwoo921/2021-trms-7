@@ -2875,3 +2875,2595 @@
   role: 'Employee',
   name: 'Michael'
 }
+[2022-03-05T09:10:12.294] [DEBUG] default - {}
+[2022-03-05T09:10:40.935] [DEBUG] default - { name: 'Michael', password: 'pass' } req.body
+[2022-03-05T09:10:41.212] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Richard',
+  role: 'Employee',
+  name: 'Michael'
+}
+[2022-03-05T09:10:47.519] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Richard',
+  role: 'Employee',
+  name: 'Michael'
+}
+[2022-03-05T09:11:30.788] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Richard',
+  role: 'Employee',
+  name: 'Michael'
+}
+[2022-03-05T09:11:30.802] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Richard',
+  role: 'Employee',
+  name: 'Michael'
+}
+[2022-03-05T09:11:30.967] [DEBUG] default - { Attributes: { fund: 1000, password: 'pass' } }
+[2022-03-05T09:11:30.968] [INFO] default - user updated successfully
+[2022-03-05T09:11:47.446] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Richard',
+  role: 'Employee',
+  name: 'Michael'
+}
+[2022-03-05T09:12:19.060] [ERROR] default - null
+[2022-03-05T09:12:27.718] [DEBUG] default - {}
+[2022-03-05T09:14:30.309] [DEBUG] default - {}
+[2022-03-05T09:14:30.465] [DEBUG] default - true
+[2022-03-05T09:15:47.672] [DEBUG] default - {
+  event_end_date: '2021-02-25',
+  event_location: 'online',
+  grade: '',
+  event_description: 'backend developmewnt',
+  comments: '',
+  pro_reimbursement: 80,
+  event_start_date: '2021-01-12',
+  attachments: '',
+  sup_name: 'Richard',
+  date_created: '2020-08-25',
+  approval: {
+    head: { date: '', reason: '', additional_info: '', status: '' },
+    sup: { date: '', reason: '', additional_info: '', status: '' },
+    benco: { date: '', reason: '', additional_info: '', status: '' }
+  },
+  name: 'Michael',
+  event_type: 'Certification Preparation Classes',
+  role: 'Employee',
+  justification: 'needed for job',
+  event_cost: 100,
+  event_name: 'Nodejs with TypeScript123'
+}
+[2022-03-05T09:15:47.836] [INFO] default - successfully added items
+[2022-03-05T09:15:47.837] [DEBUG] default - true
+[2022-03-05T09:16:34.359] [INFO] default - Successfully updated trms
+[2022-03-05T09:17:25.862] [INFO] default - Successfully updated trms
+[2022-03-05T09:17:38.316] [INFO] default - Successfully updated trms
+[2022-03-05T09:21:22.753] [DEBUG] default - {}
+[2022-03-05T09:22:03.632] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-05T09:22:03.819] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-05T09:22:04.075] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-05T09:22:50.453] [DEBUG] default - {}
+[2022-03-05T09:22:50.630] [DEBUG] default - true
+[2022-03-05T09:22:50.656] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-05T09:23:35.367] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-05T09:28:42.989] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-05T09:30:15.674] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-05T09:31:00.987] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-05T09:31:24.070] [ERROR] default - null
+[2022-03-06T10:56:33.546] [DEBUG] default - { name: 'Michael', password: 'pas', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T10:56:39.405] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T10:56:39.670] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T10:56:40.190] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:05:53.039] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:06:02.546] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:07:46.573] [ERROR] default - null
+[2022-03-06T11:12:06.063] [DEBUG] default - {}
+[2022-03-06T11:12:30.752] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T11:12:30.918] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:12:31.380] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:05.940] [DEBUG] default - {
+  name: 'Michael',
+  sup_name: '',
+  date_created: '2022-03-06',
+  role: 'Employee',
+  event_name: 'Nothing',
+  event_type: 'Others',
+  event_start_date: '2022-03-14',
+  event_end_date: '2022-03-23',
+  event_location: 'online',
+  event_description: 'Nosql database',
+  event_cost: '400',
+  event_grading_format: '',
+  justification: '3 days off',
+  pro_reimbursement: 120,
+  attachments: '',
+  grade: '',
+  reimbursement: 0,
+  comments: '',
+  approval: {
+    sup: { status: '', date: '', reason: '', additional_info: '' },
+    head: { status: '', date: '', reason: '', additional_info: '' },
+    benco: { status: '', date: '', reason: '', additional_info: '' }
+  }
+}
+[2022-03-06T11:25:06.244] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:06.251] [INFO] default - successfully added items
+[2022-03-06T11:25:06.251] [DEBUG] default - true
+[2022-03-06T11:25:06.355] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:06.356] [INFO] default - user updated successfully
+[2022-03-06T11:25:06.576] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:06.611] [DEBUG] default - {
+  fund: 1000,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:06.689] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:06.689] [INFO] default - user updated successfully
+[2022-03-06T11:25:07.033] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:07.153] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:07.154] [INFO] default - user updated successfully
+[2022-03-06T11:25:07.350] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:07.455] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:07.455] [INFO] default - user updated successfully
+[2022-03-06T11:25:07.614] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:07.677] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:07.718] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:07.719] [INFO] default - user updated successfully
+[2022-03-06T11:25:07.791] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:07.791] [INFO] default - user updated successfully
+[2022-03-06T11:25:07.929] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:07.993] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:08.041] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:08.041] [INFO] default - user updated successfully
+[2022-03-06T11:25:08.130] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:08.130] [INFO] default - user updated successfully
+[2022-03-06T11:25:08.247] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:08.311] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:08.353] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:08.353] [INFO] default - user updated successfully
+[2022-03-06T11:25:08.415] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:08.415] [INFO] default - user updated successfully
+[2022-03-06T11:25:08.566] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:08.628] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:08.666] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:08.666] [INFO] default - user updated successfully
+[2022-03-06T11:25:08.730] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:08.730] [INFO] default - user updated successfully
+[2022-03-06T11:25:08.880] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:08.944] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:08.985] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:08.985] [INFO] default - user updated successfully
+[2022-03-06T11:25:09.056] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:09.057] [INFO] default - user updated successfully
+[2022-03-06T11:25:09.197] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:09.261] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:09.303] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:09.303] [INFO] default - user updated successfully
+[2022-03-06T11:25:09.370] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:09.370] [INFO] default - user updated successfully
+[2022-03-06T11:25:09.514] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:09.577] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:09.626] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:09.626] [INFO] default - user updated successfully
+[2022-03-06T11:25:09.683] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:09.684] [INFO] default - user updated successfully
+[2022-03-06T11:25:09.830] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:09.894] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:09.978] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:09.978] [INFO] default - user updated successfully
+[2022-03-06T11:25:09.995] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:09.996] [INFO] default - user updated successfully
+[2022-03-06T11:25:10.149] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:25:10.250] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T11:25:10.251] [INFO] default - user updated successfully
+[2022-03-06T11:26:35.913] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:27:53.621] [DEBUG] default - {}
+[2022-03-06T11:27:53.772] [DEBUG] default - true
+[2022-03-06T11:27:54.109] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T11:35:50.269] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:06:30.872] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:13:02.477] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:14:17.186] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:14:48.174] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:16:05.852] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:19:23.786] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:21:51.795] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:29:53.227] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:04.914] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:05.052] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:05.052] [INFO] default - user updated successfully
+[2022-03-06T12:33:05.227] [DEBUG] default - {
+  name: 'Michael',
+  sup_name: 'Richard',
+  date_created: '2022-03-06',
+  role: 'Employee',
+  event_name: '',
+  event_type: 'University Courses',
+  event_start_date: '2022-03-30',
+  event_end_date: '',
+  event_location: '',
+  event_description: '',
+  event_cost: '120',
+  event_grading_format: '',
+  justification: '',
+  attachments: '',
+  grade: '',
+  reimbursement: 0,
+  comments: '',
+  approval: {
+    sup: { status: '', date: '', reason: '', additional_info: '' },
+    head: { status: '', date: '', reason: '', additional_info: '' },
+    benco: { status: '', date: '', reason: '', additional_info: '' }
+  }
+}
+[2022-03-06T12:33:05.240] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:05.336] [INFO] default - successfully added items
+[2022-03-06T12:33:05.337] [DEBUG] default - true
+[2022-03-06T12:33:05.342] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:05.343] [INFO] default - user updated successfully
+[2022-03-06T12:33:05.558] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:05.682] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:05.683] [INFO] default - user updated successfully
+[2022-03-06T12:33:05.705] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:06.128] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:06.238] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:06.238] [INFO] default - user updated successfully
+[2022-03-06T12:33:06.444] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:06.583] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:06.583] [INFO] default - user updated successfully
+[2022-03-06T12:33:06.713] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:06.761] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:06.820] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:06.820] [INFO] default - user updated successfully
+[2022-03-06T12:33:06.866] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:06.866] [INFO] default - user updated successfully
+[2022-03-06T12:33:07.032] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:07.079] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:07.147] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:07.147] [INFO] default - user updated successfully
+[2022-03-06T12:33:07.183] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:07.183] [INFO] default - user updated successfully
+[2022-03-06T12:33:07.360] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:07.406] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:07.466] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:07.467] [INFO] default - user updated successfully
+[2022-03-06T12:33:07.510] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:07.510] [INFO] default - user updated successfully
+[2022-03-06T12:33:07.677] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:07.721] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:07.783] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:07.783] [INFO] default - user updated successfully
+[2022-03-06T12:33:07.828] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:07.829] [INFO] default - user updated successfully
+[2022-03-06T12:33:07.992] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:08.041] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:08.093] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:08.093] [INFO] default - user updated successfully
+[2022-03-06T12:33:08.145] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:08.146] [INFO] default - user updated successfully
+[2022-03-06T12:33:08.310] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:08.357] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:08.426] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:08.426] [INFO] default - user updated successfully
+[2022-03-06T12:33:08.539] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:08.539] [INFO] default - user updated successfully
+[2022-03-06T12:33:08.623] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:08.671] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:08.727] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:08.728] [INFO] default - user updated successfully
+[2022-03-06T12:33:08.773] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:08.773] [INFO] default - user updated successfully
+[2022-03-06T12:33:08.937] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:08.993] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:09.040] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:09.040] [INFO] default - user updated successfully
+[2022-03-06T12:33:09.105] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:09.105] [INFO] default - user updated successfully
+[2022-03-06T12:33:49.059] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:49.193] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:49.194] [INFO] default - user updated successfully
+[2022-03-06T12:33:49.378] [DEBUG] default - {
+  name: 'Michael',
+  sup_name: 'Richard',
+  date_created: '2022-03-06',
+  role: 'Employee',
+  event_name: '',
+  event_type: '',
+  event_start_date: '2022-03-30',
+  event_end_date: '',
+  event_location: '',
+  event_description: '',
+  event_cost: 0,
+  event_grading_format: '',
+  justification: '',
+  attachments: '',
+  grade: '',
+  reimbursement: 0,
+  comments: '',
+  approval: {
+    sup: { status: '', date: '', reason: '', additional_info: '' },
+    head: { status: '', date: '', reason: '', additional_info: '' },
+    benco: { status: '', date: '', reason: '', additional_info: '' }
+  }
+}
+[2022-03-06T12:33:49.383] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:49.505] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:49.506] [INFO] default - user updated successfully
+[2022-03-06T12:33:49.508] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2022-03-06T20:33:49.507Z,
+  requestId: '7AKL9EOQ0IJOAF509AJ0U0EIIJVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 11.034444987769799
+}
+[2022-03-06T12:33:49.510] [DEBUG] default - false
+[2022-03-06T12:33:49.704] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:49.806] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:49.807] [INFO] default - user updated successfully
+[2022-03-06T12:33:49.840] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:49.953] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:49.953] [INFO] default - user updated successfully
+[2022-03-06T12:33:50.023] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:50.132] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:50.132] [INFO] default - user updated successfully
+[2022-03-06T12:33:50.174] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:50.198] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:50.279] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:50.279] [INFO] default - user updated successfully
+[2022-03-06T12:33:50.320] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:50.320] [INFO] default - user updated successfully
+[2022-03-06T12:33:50.341] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:50.451] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:50.452] [INFO] default - user updated successfully
+[2022-03-06T12:33:50.533] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:50.639] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:50.639] [INFO] default - user updated successfully
+[2022-03-06T12:33:50.659] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:50.770] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:50.770] [INFO] default - user updated successfully
+[2022-03-06T12:33:50.851] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:50.958] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:50.958] [INFO] default - user updated successfully
+[2022-03-06T12:33:50.977] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:51.087] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:51.088] [INFO] default - user updated successfully
+[2022-03-06T12:33:51.170] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:51.264] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:51.265] [INFO] default - user updated successfully
+[2022-03-06T12:33:51.298] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:51.406] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:51.407] [INFO] default - user updated successfully
+[2022-03-06T12:33:51.489] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:51.615] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:51.618] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:51.619] [INFO] default - user updated successfully
+[2022-03-06T12:33:51.723] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:51.724] [INFO] default - user updated successfully
+[2022-03-06T12:33:51.807] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:51.906] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:51.906] [INFO] default - user updated successfully
+[2022-03-06T12:33:51.935] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:52.041] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:52.041] [INFO] default - user updated successfully
+[2022-03-06T12:33:52.125] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:52.234] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:52.235] [INFO] default - user updated successfully
+[2022-03-06T12:33:52.252] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:52.358] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:52.358] [INFO] default - user updated successfully
+[2022-03-06T12:33:52.455] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:33:52.563] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:33:52.563] [INFO] default - user updated successfully
+[2022-03-06T12:35:26.728] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:26.733] [DEBUG] default - {
+  name: 'Michael',
+  sup_name: 'Richard',
+  date_created: '2022-03-06',
+  role: 'Employee',
+  event_name: 'Javascript is fun',
+  event_type: 'Seminars',
+  event_start_date: '2022-03-30',
+  event_end_date: '2022-04-24',
+  event_location: 'Los Angeles',
+  event_description: 'Modern javascript',
+  event_cost: '120',
+  event_grading_format: 'presentation',
+  justification: '3 days off',
+  pro_reimbursement: 0,
+  attachments: '',
+  grade: '',
+  reimbursement: 0,
+  comments: '',
+  approval: {
+    sup: { status: '', date: '', reason: '', additional_info: '' },
+    head: { status: '', date: '', reason: '', additional_info: '' },
+    benco: { status: '', date: '', reason: '', additional_info: '' }
+  }
+}
+[2022-03-06T12:35:26.853] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:26.853] [INFO] default - user updated successfully
+[2022-03-06T12:35:26.864] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2022-03-06T20:35:26.863Z,
+  requestId: 'P885GNPF87J4ISIVD6I33LUDV3VV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 10.129825560779725
+}
+[2022-03-06T12:35:26.864] [DEBUG] default - false
+[2022-03-06T12:35:26.995] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:27.048] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:27.106] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:27.106] [INFO] default - user updated successfully
+[2022-03-06T12:35:27.158] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:27.158] [INFO] default - user updated successfully
+[2022-03-06T12:35:27.189] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:27.293] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:27.293] [INFO] default - user updated successfully
+[2022-03-06T12:35:27.315] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:27.373] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:27.427] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:27.427] [INFO] default - user updated successfully
+[2022-03-06T12:35:27.466] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:27.476] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:27.476] [INFO] default - user updated successfully
+[2022-03-06T12:35:27.515] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:27.565] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:27.565] [INFO] default - user updated successfully
+[2022-03-06T12:35:27.614] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:27.615] [INFO] default - user updated successfully
+[2022-03-06T12:35:27.647] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:27.748] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:27.748] [INFO] default - user updated successfully
+[2022-03-06T12:35:27.787] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:27.835] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:27.883] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:27.883] [INFO] default - user updated successfully
+[2022-03-06T12:35:27.948] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:27.948] [INFO] default - user updated successfully
+[2022-03-06T12:35:27.962] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:28.064] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:28.064] [INFO] default - user updated successfully
+[2022-03-06T12:35:28.104] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:28.152] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:28.206] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:28.207] [INFO] default - user updated successfully
+[2022-03-06T12:35:28.253] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:28.253] [INFO] default - user updated successfully
+[2022-03-06T12:35:28.278] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:28.381] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:28.381] [INFO] default - user updated successfully
+[2022-03-06T12:35:28.432] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:28.480] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:28.551] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:28.551] [INFO] default - user updated successfully
+[2022-03-06T12:35:28.592] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:28.592] [INFO] default - user updated successfully
+[2022-03-06T12:35:28.608] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:28.703] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:28.703] [INFO] default - user updated successfully
+[2022-03-06T12:35:28.752] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:28.800] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:28.854] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:28.855] [INFO] default - user updated successfully
+[2022-03-06T12:35:28.893] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:28.893] [INFO] default - user updated successfully
+[2022-03-06T12:35:28.927] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:35:29.033] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:35:29.033] [INFO] default - user updated successfully
+[2022-03-06T12:36:56.295] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:56.299] [DEBUG] default - {
+  name: 'Michael',
+  sup_name: 'Richard',
+  date_created: '2022-03-06',
+  role: 'Employee',
+  event_name: 'Javascript is fun',
+  event_type: 'Seminars',
+  event_start_date: '2022-03-30',
+  event_end_date: '2022-04-24',
+  event_location: 'Los Angeles',
+  event_description: 'Modern javascript',
+  event_cost: '120',
+  event_grading_format: 'presentation',
+  justification: '3 days off',
+  pro_reimbursement: 0,
+  attachments: '',
+  grade: '',
+  reimbursement: 0,
+  comments: '',
+  approval: {
+    sup: { status: '', date: '', reason: '', additional_info: '' },
+    head: { status: '', date: '', reason: '', additional_info: '' },
+    benco: { status: '', date: '', reason: '', additional_info: '' }
+  }
+}
+[2022-03-06T12:36:56.414] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:56.414] [INFO] default - user updated successfully
+[2022-03-06T12:36:56.419] [ERROR] default - ConditionalCheckFailedException: The conditional request failed
+    at Request.extractError (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\protocol\json.js:52:27)
+    at Request.callListeners (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:106:20)
+    at Request.emit (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:78:10)
+    at Request.emit (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:688:14)
+    at Request.transition (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:22:10)
+    at AcceptorStateMachine.runTo (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\state_machine.js:14:12)
+    at C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\state_machine.js:26:10
+    at Request.<anonymous> (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:38:9)
+    at Request.<anonymous> (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\request.js:690:12)
+    at Request.callListeners (C:\Users\jungw\Desktop\Work2022\Revature\2021-trms-7-22\node_modules\aws-sdk\lib\sequential_executor.js:116:18) {
+  code: 'ConditionalCheckFailedException',
+  time: 2022-03-06T20:36:56.419Z,
+  requestId: '4DAT8QHR38NQT62MPHB2NTVHBBVV4KQNSO5AEMVJF66Q9ASUAAJG',
+  statusCode: 400,
+  retryable: false,
+  retryDelay: 11.019499315552927
+}
+[2022-03-06T12:36:56.422] [DEBUG] default - false
+[2022-03-06T12:36:56.547] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:56.614] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:56.669] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:56.669] [INFO] default - user updated successfully
+[2022-03-06T12:36:56.723] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:56.723] [INFO] default - user updated successfully
+[2022-03-06T12:36:56.753] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:56.862] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:56.862] [INFO] default - user updated successfully
+[2022-03-06T12:36:56.869] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:56.944] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:56.979] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:56.979] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.012] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:57.054] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:57.054] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.070] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:57.117] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:57.117] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.168] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:57.168] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.198] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:57.309] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:57.309] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.328] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:57.390] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:57.441] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:57.441] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.495] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:57.495] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.515] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:57.607] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:57.608] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.644] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:57.707] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:57.750] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:57.750] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.812] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:57.813] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.835] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:57.944] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:57.944] [INFO] default - user updated successfully
+[2022-03-06T12:36:57.963] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:58.025] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:58.070] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:58.071] [INFO] default - user updated successfully
+[2022-03-06T12:36:58.132] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:58.132] [INFO] default - user updated successfully
+[2022-03-06T12:36:58.153] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:58.261] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:58.262] [INFO] default - user updated successfully
+[2022-03-06T12:36:58.279] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:58.342] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:58.381] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:58.381] [INFO] default - user updated successfully
+[2022-03-06T12:36:58.443] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:58.443] [INFO] default - user updated successfully
+[2022-03-06T12:36:58.470] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:36:58.574] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:36:58.574] [INFO] default - user updated successfully
+[2022-03-06T12:37:13.569] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:37:40.197] [DEBUG] default - {}
+[2022-03-06T12:37:40.315] [DEBUG] default - true
+[2022-03-06T12:37:40.663] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:52.833] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:52.841] [DEBUG] default - {
+  name: 'Michael',
+  sup_name: 'Richard',
+  date_created: '2022-03-06',
+  role: 'Employee',
+  event_name: 'Javascript is fun',
+  event_type: 'University Courses',
+  event_start_date: '2022-03-30',
+  event_end_date: '2021-02-25',
+  event_location: 'Los Angeles',
+  event_description: 'Modern javascript',
+  event_cost: '120',
+  event_grading_format: '',
+  justification: '3 days off',
+  attachments: '',
+  grade: '',
+  reimbursement: 0,
+  comments: '',
+  approval: {
+    sup: { status: '', date: '', reason: '', additional_info: '' },
+    head: { status: '', date: '', reason: '', additional_info: '' },
+    benco: { status: '', date: '', reason: '', additional_info: '' }
+  }
+}
+[2022-03-06T12:38:52.973] [INFO] default - successfully added items
+[2022-03-06T12:38:52.974] [DEBUG] default - true
+[2022-03-06T12:38:52.978] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:52.979] [INFO] default - user updated successfully
+[2022-03-06T12:38:53.083] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:53.184] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:53.184] [INFO] default - user updated successfully
+[2022-03-06T12:38:53.339] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:53.447] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:53.575] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:53.576] [INFO] default - user updated successfully
+[2022-03-06T12:38:53.765] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:53.870] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:53.870] [INFO] default - user updated successfully
+[2022-03-06T12:38:54.031] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:54.079] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:54.134] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:54.134] [INFO] default - user updated successfully
+[2022-03-06T12:38:54.188] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:54.188] [INFO] default - user updated successfully
+[2022-03-06T12:38:54.350] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:54.397] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:54.462] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:54.462] [INFO] default - user updated successfully
+[2022-03-06T12:38:54.509] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:54.510] [INFO] default - user updated successfully
+[2022-03-06T12:38:54.667] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:54.715] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:54.774] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:54.774] [INFO] default - user updated successfully
+[2022-03-06T12:38:54.830] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:54.831] [INFO] default - user updated successfully
+[2022-03-06T12:38:54.985] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:55.030] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:55.085] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:55.086] [INFO] default - user updated successfully
+[2022-03-06T12:38:55.138] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:55.139] [INFO] default - user updated successfully
+[2022-03-06T12:38:55.313] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:55.344] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:55.422] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:55.422] [INFO] default - user updated successfully
+[2022-03-06T12:38:55.453] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:55.453] [INFO] default - user updated successfully
+[2022-03-06T12:38:55.631] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:55.661] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:55.737] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:55.737] [INFO] default - user updated successfully
+[2022-03-06T12:38:55.760] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:55.761] [INFO] default - user updated successfully
+[2022-03-06T12:38:55.948] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:55.980] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:56.055] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:56.056] [INFO] default - user updated successfully
+[2022-03-06T12:38:56.102] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:56.103] [INFO] default - user updated successfully
+[2022-03-06T12:38:56.261] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:56.309] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:56.375] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:56.375] [INFO] default - user updated successfully
+[2022-03-06T12:38:56.411] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:56.411] [INFO] default - user updated successfully
+[2022-03-06T12:38:56.579] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:38:56.695] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:38:56.696] [INFO] default - user updated successfully
+[2022-03-06T12:41:33.787] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:40.341] [DEBUG] default - {}
+[2022-03-06T12:41:40.445] [DEBUG] default - true
+[2022-03-06T12:41:40.786] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:55.490] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:55.620] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:55.620] [INFO] default - user updated successfully
+[2022-03-06T12:41:55.806] [DEBUG] default - {
+  name: 'Michael',
+  sup_name: 'Richard',
+  date_created: '2022-03-06',
+  role: 'Employee',
+  event_name: '',
+  event_type: '',
+  event_start_date: '2022-03-30',
+  event_end_date: '',
+  event_location: '',
+  event_description: '',
+  event_cost: 0,
+  event_grading_format: '',
+  justification: '',
+  attachments: '',
+  grade: '',
+  reimbursement: 0,
+  comments: '',
+  approval: {
+    sup: { status: '', date: '', reason: '', additional_info: '' },
+    head: { status: '', date: '', reason: '', additional_info: '' },
+    benco: { status: '', date: '', reason: '', additional_info: '' }
+  }
+}
+[2022-03-06T12:41:55.811] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:55.908] [INFO] default - successfully added items
+[2022-03-06T12:41:55.908] [DEBUG] default - true
+[2022-03-06T12:41:55.919] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:55.920] [INFO] default - user updated successfully
+[2022-03-06T12:41:56.136] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:56.246] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:56.247] [INFO] default - user updated successfully
+[2022-03-06T12:41:56.261] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:56.688] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:56.809] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:56.809] [INFO] default - user updated successfully
+[2022-03-06T12:41:57.014] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:57.126] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:57.126] [INFO] default - user updated successfully
+[2022-03-06T12:41:57.270] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:57.328] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:57.370] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:57.371] [INFO] default - user updated successfully
+[2022-03-06T12:41:57.437] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:57.437] [INFO] default - user updated successfully
+[2022-03-06T12:41:57.589] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:57.652] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:57.709] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:57.710] [INFO] default - user updated successfully
+[2022-03-06T12:41:57.773] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:57.773] [INFO] default - user updated successfully
+[2022-03-06T12:41:57.902] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:57.965] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:58.015] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:58.015] [INFO] default - user updated successfully
+[2022-03-06T12:41:58.079] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:58.079] [INFO] default - user updated successfully
+[2022-03-06T12:41:58.218] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:58.282] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:58.331] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:58.331] [INFO] default - user updated successfully
+[2022-03-06T12:41:58.386] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:58.386] [INFO] default - user updated successfully
+[2022-03-06T12:41:58.537] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:58.600] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:58.664] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:58.664] [INFO] default - user updated successfully
+[2022-03-06T12:41:58.711] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:58.711] [INFO] default - user updated successfully
+[2022-03-06T12:41:58.854] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:58.918] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:58.961] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:58.962] [INFO] default - user updated successfully
+[2022-03-06T12:41:59.022] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:59.022] [INFO] default - user updated successfully
+[2022-03-06T12:41:59.170] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:59.247] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:59.281] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:59.281] [INFO] default - user updated successfully
+[2022-03-06T12:41:59.350] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:59.350] [INFO] default - user updated successfully
+[2022-03-06T12:41:59.501] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:59.563] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:41:59.635] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:59.636] [INFO] default - user updated successfully
+[2022-03-06T12:41:59.666] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:41:59.666] [INFO] default - user updated successfully
+[2022-03-06T12:48:10.947] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:54:26.144] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:54:37.116] [DEBUG] default - {}
+[2022-03-06T12:54:37.245] [DEBUG] default - true
+[2022-03-06T12:54:37.577] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:40.217] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:40.221] [DEBUG] default - {
+  name: 'Michael',
+  sup_name: 'Richard',
+  date_created: '2022-03-06',
+  role: 'Employee',
+  event_name: 'test',
+  event_type: '',
+  event_start_date: '2022-03-30',
+  event_end_date: '2022-03-24',
+  event_location: 'online',
+  event_description: 'Nosql database',
+  event_cost: '120',
+  event_grading_format: '',
+  justification: '',
+  attachments: '',
+  grade: '',
+  reimbursement: 0,
+  comments: '',
+  approval: {
+    sup: { status: '', date: '', reason: '', additional_info: '' },
+    head: { status: '', date: '', reason: '', additional_info: '' },
+    benco: { status: '', date: '', reason: '', additional_info: '' }
+  }
+}
+[2022-03-06T12:55:40.342] [INFO] default - successfully added items
+[2022-03-06T12:55:40.342] [DEBUG] default - true
+[2022-03-06T12:55:40.344] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:40.344] [INFO] default - user updated successfully
+[2022-03-06T12:55:40.466] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:40.578] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:40.579] [INFO] default - user updated successfully
+[2022-03-06T12:55:40.692] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:40.805] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:40.905] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:40.905] [INFO] default - user updated successfully
+[2022-03-06T12:55:41.132] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:41.236] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:41.236] [INFO] default - user updated successfully
+[2022-03-06T12:55:41.386] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:41.447] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:41.485] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:41.486] [INFO] default - user updated successfully
+[2022-03-06T12:55:41.556] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:41.557] [INFO] default - user updated successfully
+[2022-03-06T12:55:41.700] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:41.763] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:41.795] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:41.795] [INFO] default - user updated successfully
+[2022-03-06T12:55:41.868] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:41.868] [INFO] default - user updated successfully
+[2022-03-06T12:55:42.014] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:42.077] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:42.125] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:42.125] [INFO] default - user updated successfully
+[2022-03-06T12:55:42.183] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:42.184] [INFO] default - user updated successfully
+[2022-03-06T12:55:42.330] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:42.394] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:42.435] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:42.436] [INFO] default - user updated successfully
+[2022-03-06T12:55:42.505] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:42.505] [INFO] default - user updated successfully
+[2022-03-06T12:55:42.647] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:42.711] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:42.743] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:42.743] [INFO] default - user updated successfully
+[2022-03-06T12:55:42.812] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:42.812] [INFO] default - user updated successfully
+[2022-03-06T12:55:42.978] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:43.027] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:43.074] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:43.074] [INFO] default - user updated successfully
+[2022-03-06T12:55:43.153] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:43.153] [INFO] default - user updated successfully
+[2022-03-06T12:55:43.295] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:43.342] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:43.406] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:43.407] [INFO] default - user updated successfully
+[2022-03-06T12:55:43.455] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:43.455] [INFO] default - user updated successfully
+[2022-03-06T12:55:43.615] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:43.663] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:43.737] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:43.737] [INFO] default - user updated successfully
+[2022-03-06T12:55:43.782] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:43.782] [INFO] default - user updated successfully
+[2022-03-06T12:55:43.929] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:55:44.030] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:55:44.030] [INFO] default - user updated successfully
+[2022-03-06T12:56:55.492] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:57:41.186] [DEBUG] default - {}
+[2022-03-06T12:57:41.338] [DEBUG] default - true
+[2022-03-06T12:57:41.675] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:43.975] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:43.979] [DEBUG] default - {
+  name: 'Michael',
+  sup_name: 'Richard',
+  date_created: '2022-03-06',
+  role: 'Employee',
+  event_name: 'React Native',
+  event_type: 'University Courses',
+  event_start_date: '2022-03-30',
+  event_end_date: '2022-04-15',
+  event_location: 'online',
+  event_description: 'Modern javascript',
+  event_cost: '120',
+  event_grading_format: 'letter_grade',
+  justification: 'requires a good understanding of noSql DB to serve customers with better app experience',
+  pro_reimbursement: 0,
+  attachments: '',
+  grade: '',
+  reimbursement: 0,
+  comments: '',
+  approval: {
+    sup: { status: '', date: '', reason: '', additional_info: '' },
+    head: { status: '', date: '', reason: '', additional_info: '' },
+    benco: { status: '', date: '', reason: '', additional_info: '' }
+  }
+}
+[2022-03-06T12:59:44.096] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:44.099] [INFO] default - user updated successfully
+[2022-03-06T12:59:44.109] [INFO] default - successfully added items
+[2022-03-06T12:59:44.109] [DEBUG] default - true
+[2022-03-06T12:59:44.211] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:44.322] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:44.322] [INFO] default - user updated successfully
+[2022-03-06T12:59:44.467] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:44.623] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:44.728] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:44.729] [INFO] default - user updated successfully
+[2022-03-06T12:59:44.941] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:45.050] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:45.051] [INFO] default - user updated successfully
+[2022-03-06T12:59:45.209] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:45.258] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:45.311] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:45.311] [INFO] default - user updated successfully
+[2022-03-06T12:59:45.391] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:45.392] [INFO] default - user updated successfully
+[2022-03-06T12:59:45.525] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:45.573] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:45.683] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:45.683] [INFO] default - user updated successfully
+[2022-03-06T12:59:45.691] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:45.692] [INFO] default - user updated successfully
+[2022-03-06T12:59:45.844] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:45.893] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:45.957] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:45.957] [INFO] default - user updated successfully
+[2022-03-06T12:59:45.993] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:45.993] [INFO] default - user updated successfully
+[2022-03-06T12:59:46.161] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:46.207] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:46.269] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:46.270] [INFO] default - user updated successfully
+[2022-03-06T12:59:46.315] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:46.315] [INFO] default - user updated successfully
+[2022-03-06T12:59:46.487] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:46.535] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:46.596] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:46.596] [INFO] default - user updated successfully
+[2022-03-06T12:59:46.646] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:46.646] [INFO] default - user updated successfully
+[2022-03-06T12:59:46.802] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:46.849] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:46.919] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:46.919] [INFO] default - user updated successfully
+[2022-03-06T12:59:46.988] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:46.988] [INFO] default - user updated successfully
+[2022-03-06T12:59:47.121] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:47.168] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:47.236] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:47.236] [INFO] default - user updated successfully
+[2022-03-06T12:59:47.277] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:47.277] [INFO] default - user updated successfully
+[2022-03-06T12:59:47.437] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:47.486] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:47.544] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:47.544] [INFO] default - user updated successfully
+[2022-03-06T12:59:47.594] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:47.595] [INFO] default - user updated successfully
+[2022-03-06T12:59:47.762] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T12:59:47.870] [DEBUG] default - { Attributes: { fund: 880, password: 'pass' } }
+[2022-03-06T12:59:47.871] [INFO] default - user updated successfully
+[2022-03-06T13:10:42.660] [INFO] default - Successfully updated trms
+[2022-03-06T13:10:44.022] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:13:01.219] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:13:03.566] [ERROR] default - null
+[2022-03-06T13:13:30.473] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T13:13:30.741] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:13:31.197] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:13:36.899] [ERROR] default - null
+[2022-03-06T13:13:48.098] [DEBUG] default - { name: 'Richard', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T13:13:48.363] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:13:48.853] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:14:45.607] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:15:34.652] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:15:59.118] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:16:12.123] [ERROR] default - null
+[2022-03-06T13:16:22.133] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T13:16:22.583] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:16:23.093] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:18:07.989] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:19:09.113] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:19:17.926] [ERROR] default - null
+[2022-03-06T13:19:29.664] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T13:19:29.929] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:19:30.381] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:19:36.304] [ERROR] default - null
+[2022-03-06T13:19:48.503] [DEBUG] default - { name: 'Richard', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T13:19:48.761] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:19:49.220] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:20:05.924] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:20:27.434] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:31:29.244] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:33:04.874] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:35:32.132] [INFO] default - Successfully updated trms
+[2022-03-06T13:35:33.500] [DEBUG] default - {
+  fund: 2000,
+  password: 'pass',
+  sup_name: 'Jim',
+  role: 'Sup',
+  name: 'Richard'
+}
+[2022-03-06T13:35:52.148] [ERROR] default - null
+[2022-03-06T13:36:05.608] [DEBUG] default - { name: 'Jim', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T13:36:05.875] [DEBUG] default - { password: 'pass', sup_name: 'Benco', role: 'DeptHead', name: 'Jim' }
+[2022-03-06T13:36:06.333] [DEBUG] default - { password: 'pass', sup_name: 'Benco', role: 'DeptHead', name: 'Jim' }
+[2022-03-06T13:37:00.383] [INFO] default - Successfully updated trms
+[2022-03-06T13:37:00.936] [DEBUG] default - { password: 'pass', sup_name: 'Benco', role: 'DeptHead', name: 'Jim' }
+[2022-03-06T13:37:38.242] [DEBUG] default - { password: 'pass', sup_name: 'Benco', role: 'DeptHead', name: 'Jim' }
+[2022-03-06T13:37:45.150] [ERROR] default - null
+[2022-03-06T13:38:02.966] [DEBUG] default - { name: 'Benco', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T13:38:03.234] [DEBUG] default - { password: 'pass', sup_name: 'King', role: 'Benco', name: 'Benco' }
+[2022-03-06T13:38:03.692] [DEBUG] default - { password: 'pass', sup_name: 'King', role: 'Benco', name: 'Benco' }
+[2022-03-06T13:38:21.902] [DEBUG] default - { password: 'pass', sup_name: 'King', role: 'Benco', name: 'Benco' }
+[2022-03-06T13:38:42.107] [DEBUG] default - { password: 'pass', sup_name: 'King', role: 'Benco', name: 'Benco' }
+[2022-03-06T13:39:14.541] [INFO] default - Successfully updated trms
+[2022-03-06T13:39:14.896] [DEBUG] default - { password: 'pass', sup_name: 'King', role: 'Benco', name: 'Benco' }
+[2022-03-06T13:39:33.643] [ERROR] default - null
+[2022-03-06T13:39:54.153] [DEBUG] default - { name: 'King', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T13:39:54.620] [DEBUG] default - { password: 'pass', sup_name: '', role: 'King', name: 'King' }
+[2022-03-06T13:39:55.079] [DEBUG] default - { password: 'pass', sup_name: '', role: 'King', name: 'King' }
+[2022-03-06T13:40:21.220] [ERROR] default - null
+[2022-03-06T13:42:09.848] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-06T13:42:10.115] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:42:10.573] [DEBUG] default - {
+  fund: 880,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-06T13:43:09.453] [ERROR] default - null
+[2022-03-06T13:52:32.312] [DEBUG] default - {}
+[2022-03-06T13:53:21.869] [DEBUG] default - {}
+[2022-03-06T13:53:35.588] [DEBUG] default - {}
+[2022-03-06T13:53:43.479] [DEBUG] default - {}
+[2022-03-06T13:56:11.976] [DEBUG] default - {}
+[2022-03-06T13:56:18.569] [DEBUG] default - {}
+[2022-03-06T13:56:32.456] [DEBUG] default - {}
+[2022-03-06T13:56:34.963] [DEBUG] default - {}
+[2022-03-06T13:57:38.168] [DEBUG] default - {}
+[2022-03-06T13:57:47.311] [DEBUG] default - {}
+[2022-03-06T13:57:50.868] [DEBUG] default - {}
+[2022-03-06T14:01:19.631] [DEBUG] default - {}
+[2022-03-06T17:39:00.339] [INFO] default - successfully added items
+[2022-03-06T17:39:00.344] [INFO] default - successfully added items
+[2022-03-06T17:39:00.346] [INFO] default - successfully added items
+[2022-03-06T17:39:00.348] [INFO] default - successfully created user item
+[2022-03-06T17:39:00.350] [INFO] default - successfully added items
+[2022-03-06T17:39:00.353] [INFO] default - successfully created user item
+[2022-03-06T17:39:00.356] [INFO] default - successfully created user item
+[2022-03-06T17:39:00.359] [INFO] default - successfully created user item
+[2022-03-06T17:39:00.362] [INFO] default - successfully created user item
+[2022-03-06T17:39:00.365] [INFO] default - successfully created user item
+[2022-03-06T17:39:00.369] [INFO] default - successfully created user item
+[2022-03-06T17:39:00.372] [INFO] default - successfully created user item
+[2022-03-06T17:40:10.029] [INFO] default - successfully added items
+[2022-03-06T17:40:10.034] [INFO] default - successfully added items
+[2022-03-06T17:40:10.036] [INFO] default - successfully added items
+[2022-03-06T17:40:10.038] [INFO] default - successfully created user item
+[2022-03-06T17:40:10.041] [INFO] default - successfully added items
+[2022-03-06T17:40:10.044] [INFO] default - successfully created user item
+[2022-03-06T17:40:10.046] [INFO] default - successfully created user item
+[2022-03-06T17:40:10.048] [INFO] default - successfully created user item
+[2022-03-06T17:40:10.051] [INFO] default - successfully created user item
+[2022-03-06T17:40:10.054] [INFO] default - successfully created user item
+[2022-03-06T17:40:10.059] [INFO] default - successfully created user item
+[2022-03-06T17:40:10.069] [INFO] default - successfully created user item
