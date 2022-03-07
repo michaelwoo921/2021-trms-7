@@ -49,3 +49,13 @@
 
 To use the app first login:
 ![Login](/Screenshots/login.png 'Login')
+
+You will be taken to the Home Screen:
+![Home Screen](/Screenshots/home-screen.png 'Home Screen')
+You can create, view more detail, update after the completetion of the course, or delete the form. Click See more info:
+![Detail](/Screenshots/more-info.png 'More Info')
+
+![Update](/Screenshots/update.png 'Update TRMS')
+
+Direct Supervisor, Department Head, Benco can login and approve or deny the employee's TRMS request:
+![approve](/Screenshots/approve.png 'approved TRMS')
