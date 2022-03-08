@@ -29,15 +29,15 @@
 
 ## Features
 
-- As an employee, I can login, complete TRMS form, view, update and delete the form.
-- As an employee, I can check the status of approvals by the direct supervisor, Department Head, and Benco.
+- As an employee, I can login, create, view, update and delete my TRMS form.
+- As an employee, I can check the status of approvals for my TRMS form by the direct supervisor, Department Head, and Benco.
 - As a direct supervisor, I can view my workers TRMS and approve or deny the requests
-- As a Department Head, I can view all workers TRMS and approve or deny the requests forms approved by the direct supervisor of the worker.
-- As a Benco, I can view all workers TRMS and approve or deny the requests froms approved by the Department Head.
+- As a Department Head, I can view all workers TRMS and approve or deny the request form approved by the direct supervisor of the worker.
+- As a Benco, I can view all workers TRMS and approve or deny the requests forms approved by the Department Head.
 
-- Upon the confirmation of satisfactory completion document, the monetary amount is awarded to the requestor
+- Upon the confirmation of a satisfactory completion document, the monetary amount is awarded to the requestor
 
-## To DO
+## To Do
 
 - Improve backend security related to authorization and authentication
 

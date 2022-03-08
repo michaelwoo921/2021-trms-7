@@ -30,7 +30,6 @@ const options = [
   },
 ];
 
-// Function Component
 function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
   const trmsSelector = (state: TrmsState) => state.trms;
   const trms = useSelector(trmsSelector);
@@ -38,7 +37,6 @@ function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
 
   let [appValue, setAppValue] = useState('');
 
-  // alert(JSON.stringify(user));
   const dispatch = useDispatch();
   useEffect(() => {
     console.log(props);
@@ -85,8 +83,6 @@ function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
   ];
 
   const history = useHistory();
-  // This function is going to handle my onChange event.
-  // SyntheticEvent is how React simulates events.
 
   let today = formatDate(new Date());
 
@@ -109,7 +105,6 @@ function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
 
         setTimeout(() => {
           console.log('Updating trms!');
-          // call the callback function from the parent component so that it will re-render
           history.push('/trmss');
         }, 1000);
       });
@@ -125,7 +120,6 @@ function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
 
         setTimeout(() => {
           console.log('Updating trms!');
-          // call the callback function from the parent component so that it will re-render
           history.push('/trmss');
         }, 1000);
       });
@@ -139,7 +133,6 @@ function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
         dispatch(changeTrms(new Trms()));
         setTimeout(() => {
           console.log('Updating trms!');
-          // call the callback function from the parent component so that it will re-render
           history.push('/trmss');
         }, 200);
       });
@@ -154,7 +147,6 @@ function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
         dispatch(changeTrms(new Trms()));
         console.log('Updating trms!');
 
-        // call the callback function from the parent component so that it will re-render
         history.push('/trmss');
       });
     }
@@ -162,19 +154,15 @@ function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
   return (
     <div className="col trms card" style={{ backgroundColor: '#96c0ca' }}>
       <div className=" card-body" style={{ backgroundColor: '#96c0ca' }}>
-        {/*  marked urgent if course already started less than 2 weeks */}
         {calculateTimeLapseInDays(trms['event_start_date'], today) < 14 &&
           calculateTimeLapseInDays(trms['event_start_date'], today) > 0 && (
             <div className="text-danger"> Urgent </div>
           )}
 
-        {/* auto-approve if sup does not respond in four weeks   */}
         {calculateTimeLapseInDays(trms['event_start_date'], today) > 28 &&
           trms.approval.sup.status === '' &&
           (trms.approval.sup.status = 'auto_approved') &&
           (trms.approval.sup.date = today)}
-
-        {/*  auto approve if head does not respond in two weeks after sup approval */}
 
         {(trms.approval.sup.status === 'auto_approved' ||
           trms.approval.sup.status === 'approved') &&
@@ -184,7 +172,6 @@ function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
           (trms.approval.head.status = 'auto_approved') &&
           (trms.approval.head.date = today)}
 
-        {/* benco does not approve 2 weeks after all documents completed then escalation email send   */}
         {(trms.approval.head.status === 'auto_approved' ||
           trms.approval.head.status === 'approved') &&
           calculateTimeLapseInDays(trms.approval.head.date, today) > 14 &&
@@ -196,7 +183,6 @@ function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
             </a>
           )}
 
-        {/* user same as trms.name */}
         {user.name === trms.name && (
           <>
             {' '}
@@ -233,7 +219,7 @@ function UpdateTrmsComponent(props: RouteComponentProps<Params>) {
             })}
           </>
         )}
-        {/*  user.name is supervisor and trms.name is Employee */}
+
         {((user.name === trms.sup_name &&
           trms.role === 'Employee' &&
           trms.approval.sup.status === '') ||

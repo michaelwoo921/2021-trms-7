@@ -1,4 +1,4 @@
-import React, { SyntheticEvent, useState } from 'react';
+import React, { SyntheticEvent } from 'react';
 import { useHistory } from 'react-router-dom';
 import { connect, ConnectedProps } from 'react-redux';
 import { TrmsState, UserState } from '../reducer';
@@ -11,26 +11,21 @@ import { useSelector } from 'react-redux';
 import formatDate, { calculateTimeLapseInDays } from '../formatDate';
 import userService from '../user/user.service';
 
-// This is the prop I want to connect from redux
 const trmsProp = (state: TrmsState) => ({ trms: state.trms });
-// This is the dispatcher I want to use from redux
+
 const mapDispatch = {
   updateTrms: (trms: Trms) => changeTrms(trms),
 };
-// Put them in the connector
-const connector = connect(trmsProp, mapDispatch);
 
-// Function Component
-// get the types of the props we created above so we can tell our component about them.
+const connector = connect(trmsProp, mapDispatch);
 
 type PropsFromRedux = ConnectedProps<typeof connector>;
 
 function AddTrmsComponent(props: PropsFromRedux) {
   const user = useSelector((state: UserState) => state.user);
-  // const FIELDS = ['name', 'date', 'start_date', 'location', 'cost'];
+
   const history = useHistory();
-  // This function is going to handle my onChange event.
-  // SyntheticEvent is how React simulates events.
+
   function handleFormInput(e: SyntheticEvent) {
     let tr: any = { ...props.trms };
     tr[(e.target as HTMLInputElement).name] = (
@@ -51,7 +46,6 @@ function AddTrmsComponent(props: PropsFromRedux) {
 
     trmsService.addTrms(props.trms).then(() => {
       props.updateTrms(new Trms());
-      // call the callback function from the parent component so that it will re-render
       history.push('/trmss');
     });
   }
@@ -65,11 +59,8 @@ function AddTrmsComponent(props: PropsFromRedux) {
     'justification',
   ];
 
-  //   const UPDATEFIELDS = ['comments', 'grade', 'attachments', 'reimbursement'];
-
   let weight = 0;
-  // props.trms['event_type'] = eventRefTable[0].type;
-  // props.trms['event_grading_format'] = letter_grade;
+
   let fundAvailable = user.fund;
   return (
     <div className="col trms card" style={{ backgroundColor: '#96c0ca' }}>
@@ -122,7 +113,6 @@ function AddTrmsComponent(props: PropsFromRedux) {
             id="event_type"
             name="event_type"
             onChange={handleFormInput}
-            // className="form-control"
             style={{ backgroundColor: '#96c0ca', width: '100%', padding: 10 }}
           >
             {eventRefTable.map((item: any) => {
@@ -225,21 +215,6 @@ function AddTrmsComponent(props: PropsFromRedux) {
         </div>
 
         <hr />
-        {/* <h4 style={{ fontStyle: 'italic' }}> Fields to be updated </h4>
-        {UPDATEFIELDS.map((fieldName) => {
-          return (
-            <div key={'input-field-' + fieldName}>
-              <label>{fieldName}</label>
-              <input
-                type="text"
-                className="form-control"
-                name={fieldName}
-                id={'tr_' + fieldName}
-                value={(props.trms as any)[fieldName]}
-              ></input>
-            </div>
-          );
-        })} */}
 
         {calculateTimeLapseInDays(
           formatDate(new Date()),
@@ -248,8 +223,6 @@ function AddTrmsComponent(props: PropsFromRedux) {
           <button
             className="btn btn-primary"
             onClick={() => {
-              // props.trms['pro_reimbursement'] = props.trms['event_cost']*weight;
-
               submitForm();
             }}
           >

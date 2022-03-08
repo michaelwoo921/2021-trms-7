@@ -72,7 +72,6 @@ export default function TrmsDetailComponent(props: MatchProps) {
             )}
           </>
         )}
-      {/*  user is dept head */}
       {userContext.role === 'DeptHead' &&
         trms.role === 'Sup' &&
         trms.approval.head.status === '' && (
@@ -100,8 +99,6 @@ export default function TrmsDetailComponent(props: MatchProps) {
             </Link>
           </>
         )}
-
-      {/* user is benco  */}
 
       {userContext.role === 'Benco' &&
         (trms.approval.head.status === 'approved' ||

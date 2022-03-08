@@ -5,8 +5,7 @@ import publicDir from '../constant';
 
 const router = express.Router();
 
-/* GET users listing. */
-router.get('/', function (req: any, res, next) {
+router.get('/', function (req: any, res) {
   let u = { ...req.session.user };
   logger.debug(u);
   if (u.name && u.password) {
@@ -22,7 +21,7 @@ router.get('/', function (req: any, res, next) {
   }
 });
 
-router.post('/', function (req: any, res, next) {
+router.post('/', function (req: any, res) {
   logger.debug(req.body, 'req.body');
   user.login(req.body.name, req.body.password).then((user) => {
     if (user === null) {
@@ -33,12 +32,12 @@ router.post('/', function (req: any, res, next) {
   });
 });
 
-router.delete('/', function (req, res, next) {
+router.delete('/', function (req, res) {
   req.session.destroy((err) => logger.error(err));
   res.sendStatus(204);
 });
 
-router.put('/', async function (req: any, res, next) {
+router.put('/', async function (req: any, res) {
   let u = { ...req.session.user };
   logger.debug(u);
   if (u.name !== '' && u.password !== '' && req.body && req.body.fund) {
@@ -51,7 +50,7 @@ router.put('/', async function (req: any, res, next) {
   }
 });
 
-router.get('/login', function (req, res, next) {
+router.get('/login', function (req, res) {
   res.sendFile('index.html', { root: publicDir });
 });
 

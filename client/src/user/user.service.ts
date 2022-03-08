@@ -5,7 +5,6 @@ class UserService {
   private URI: string;
   constructor() {
     this.URI = '/api/users';
-    // this.URI = 'http://localhost:5000/api/users';
   }
 
   getLogin() {
