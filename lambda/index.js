@@ -1,15 +1,4 @@
 "use strict";
-var __assign = (this && this.__assign) || function () {
-    __assign = Object.assign || function(t) {
-        for (var s, i = 1, n = arguments.length; i < n; i++) {
-            s = arguments[i];
-            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
-                t[p] = s[p];
-        }
-        return t;
-    };
-    return __assign.apply(this, arguments);
-};
 var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, generator) {
     function adopt(value) { return value instanceof P ? value : new P(function (resolve) { resolve(value); }); }
     return new (P || (P = Promise))(function (resolve, reject) {
@@ -48,11 +37,8 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
 };
 exports.__esModule = true;
 exports.handler = void 0;
-var AWS = require("aws-sdk");
-var docClient = new AWS.DynamoDB.DocumentClient({
-    region: 'us-west-2',
-    endpoint: 'http://dynamodb.us-west-2.amazonaws.com'
-});
+var trms_service_1 = require("./trms.service");
+var response_1 = require("./response");
 function handler(event) {
     return __awaiter(this, void 0, void 0, function () {
         var parts, _a, _, name_1, dt, trms, _b, b, trms, b, _c;
@@ -62,7 +48,6 @@ function handler(event) {
                     parts = event.path.split('/trmss')[1];
                     if (!parts.includes('/')) return [3 /*break*/, 7];
                     _a = parts.split('/'), _ = _a[0], name_1 = _a[1], dt = _a[2];
-                    console.log(name_1, dt);
                     trms = void 0;
                     _b = event.httpMethod;
                     switch (_b) {
@@ -70,64 +55,29 @@ function handler(event) {
                         case 'DELETE': return [3 /*break*/, 3];
                     }
                     return [3 /*break*/, 5];
-                case 1: return [4 /*yield*/, getTrms(name_1, dt)];
+                case 1: return [4 /*yield*/, trms_service_1["default"].getTrms(name_1, dt)];
                 case 2:
                     trms = _d.sent();
                     if (trms) {
-                        return [2 /*return*/, {
-                                body: JSON.stringify(trms),
-                                statusCode: 200,
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin': '*'
-                                }
-                            }];
+                        return [2 /*return*/, (0, response_1["default"])(trms, 200)];
                     }
                     else {
-                        return [2 /*return*/, {
-                                body: '',
-                                statusCode: 404,
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin': '*'
-                                }
-                            }];
+                        return [2 /*return*/, (0, response_1["default"])({}, 404)];
                     }
                     return [3 /*break*/, 6];
                 case 3:
                     b = void 0;
-                    return [4 /*yield*/, deleteTrms(name_1, dt)];
+                    return [4 /*yield*/, trms_service_1["default"].deleteTrms(name_1, dt)];
                 case 4:
                     b = _d.sent();
                     if (b) {
-                        return [2 /*return*/, {
-                                body: 'item deleted',
-                                statusCode: 200,
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin': '*'
-                                }
-                            }];
+                        return [2 /*return*/, (0, response_1["default"])('item deleted', 200)];
                     }
                     else {
-                        return [2 /*return*/, {
-                                body: 'item not found',
-                                statusCode: 404,
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin': '*'
-                                }
-                            }];
+                        return [2 /*return*/, (0, response_1["default"])('item not found', 404)];
                     }
                     return [3 /*break*/, 6];
-                case 5: return [2 /*return*/, {
-                        body: 'method not supported',
-                        statusCode: 404,
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'Access-Control-Allow-Origin': '*'
-                        }
-                    }];
+                case 5: return [2 /*return*/, (0, response_1["default"])('method not supported', 404)];
                 case 6: return [3 /*break*/, 15];
                 case 7:
                     trms = void 0;
@@ -139,272 +89,44 @@ function handler(event) {
                         case 'PUT': return [3 /*break*/, 12];
                     }
                     return [3 /*break*/, 14];
-                case 8: return [4 /*yield*/, getTrmss()];
+                case 8: return [4 /*yield*/, trms_service_1["default"].getTrmss()];
                 case 9:
                     trms = _d.sent();
                     if (trms) {
-                        return [2 /*return*/, {
-                                body: JSON.stringify(trms),
-                                statusCode: 200,
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin': '*'
-                                }
-                            }];
+                        return [2 /*return*/, (0, response_1["default"])(trms, 200)];
                     }
                     else {
-                        return [2 /*return*/, {
-                                body: '',
-                                statusCode: 404,
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin': '*'
-                                }
-                            }];
+                        return [2 /*return*/, (0, response_1["default"])('', 404)];
                     }
                     return [3 /*break*/, 15];
-                case 10: return [4 /*yield*/, addTrms(JSON.parse(event.body))];
+                case 10: return [4 /*yield*/, trms_service_1["default"].addTrms(JSON.parse(event.body))];
                 case 11:
                     b = _d.sent();
                     if (b) {
-                        return [2 /*return*/, {
-                                body: 'created trms',
-                                statusCode: 200,
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin': '*'
-                                }
-                            }];
+                        return [2 /*return*/, (0, response_1["default"])('created item', 200)];
                     }
                     else {
-                        return [2 /*return*/, {
-                                body: '',
-                                statusCode: 404,
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin': '*'
-                                }
-                            }];
+                        return [2 /*return*/, (0, response_1["default"])('', 404)];
                     }
                     return [3 /*break*/, 15];
-                case 12: return [4 /*yield*/, updateTrms(JSON.parse(event.body))];
+                case 12: return [4 /*yield*/, trms_service_1["default"].updateTrms(JSON.parse(event.body))];
                 case 13:
                     b = _d.sent();
                     if (b) {
-                        return [2 /*return*/, {
-                                body: 'updated trms',
-                                statusCode: 200,
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin': '*'
-                                }
-                            }];
+                        return [2 /*return*/, (0, response_1["default"])('updated item', 200)];
                     }
                     else {
-                        return [2 /*return*/, {
-                                body: '',
-                                statusCode: 404,
-                                headers: {
-                                    'Content-Type': 'application/json',
-                                    'Access-Control-Allow-Origin': '*'
-                                }
-                            }];
+                        return [2 /*return*/, (0, response_1["default"])('', 404)];
                     }
                     return [3 /*break*/, 15];
-                case 14: return [2 /*return*/, {
-                        body: '',
-                        statusCode: 404,
-                        headers: {
-                            'Content-Type': 'application/json',
-                            'Access-Control-Allow-Origin': '*'
-                        }
-                    }];
+                case 14: return [2 /*return*/, (0, response_1["default"])('', 404)];
                 case 15: return [2 /*return*/];
             }
         });
     });
 }
 exports.handler = handler;
-function getTrmss() {
-    return __awaiter(this, void 0, void 0, function () {
-        var params;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0:
-                    params = {
-                        TableName: 'trms'
-                    };
-                    return [4 /*yield*/, docClient
-                            .scan(params)
-                            .promise()
-                            .then(function (data) {
-                            return data.Items;
-                        })["catch"](function (err) {
-                            return [];
-                        })];
-                case 1: return [2 /*return*/, _a.sent()];
-            }
-        });
-    });
-}
-function getTrms(nam, dt) {
-    return __awaiter(this, void 0, void 0, function () {
-        var params;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0:
-                    params = {
-                        TableName: 'trms',
-                        Key: {
-                            name: nam,
-                            date_created: dt
-                        }
-                    };
-                    return [4 /*yield*/, docClient
-                            .get(params)
-                            .promise()
-                            .then(function (data) {
-                            return data.Item;
-                        })["catch"](function (err) {
-                            console.error(err);
-                            return null;
-                        })];
-                case 1: return [2 /*return*/, _a.sent()];
-            }
-        });
-    });
-}
-function updateTrms(trms) {
-    return __awaiter(this, void 0, void 0, function () {
-        var params;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0:
-                    console.log(trms);
-                    params = {
-                        TableName: 'trms',
-                        Key: {
-                            name: trms.name,
-                            date_created: trms.date_created
-                        },
-                        UpdateExpression: 'set #approval=:ap, #pro_reimbursement=:p, #attachments=:at, #comments=:co, #grade=:gr',
-                        ExpressionAttributeValues: {
-                            ':ap': trms.approval,
-                            ':p': trms.pro_reimbursement,
-                            ':at': trms.attachments,
-                            ':co': trms.comments,
-                            ':gr': trms.grade
-                        },
-                        ExpressionAttributeNames: {
-                            '#approval': 'approval',
-                            '#pro_reimbursement': 'pro_reimbursement',
-                            '#attachments': 'attachments',
-                            '#comments': 'comments',
-                            '#grade': 'grade'
-                        },
-                        ReturnValue: 'UPDATED_NEW'
-                    };
-                    return [4 /*yield*/, docClient
-                            .update(params)
-                            .promise()
-                            .then(function () {
-                            console.info('Successfully updated trms');
-                            return true;
-                        })["catch"](function (error) {
-                            console.error(error);
-                            return false;
-                        })];
-                case 1: return [2 /*return*/, _a.sent()];
-            }
-        });
-    });
-}
-function addTrms(t) {
-    return __awaiter(this, void 0, void 0, function () {
-        var datayorb, params;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0:
-                    datayorb = __assign({}, t);
-                    params = {
-                        TableName: 'trms',
-                        Item: datayorb,
-                        ConditionExpression: '#name <> :name AND #d <> :date_created',
-                        ExpressionAttributeNames: {
-                            '#name': 'name',
-                            '#d': 'date_created'
-                        },
-                        ExpressionAttributeValues: {
-                            ':name': datayorb.name,
-                            ':date_created': datayorb.date_created
-                        }
-                    };
-                    return [4 /*yield*/, docClient
-                            .put(params)
-                            .promise()
-                            .then(function (result) {
-                            console.info('successfully added items');
-                            return true;
-                        })["catch"](function (err) {
-                            console.error(err);
-                            return false;
-                        })];
-                case 1: return [2 /*return*/, _a.sent()];
-            }
-        });
-    });
-}
-function deleteTrms(name, date) {
-    return __awaiter(this, void 0, void 0, function () {
-        var params;
-        return __generator(this, function (_a) {
-            switch (_a.label) {
-                case 0:
-                    params = {
-                        TableName: 'trms',
-                        Key: {
-                            name: name,
-                            date_created: date
-                        }
-                    };
-                    return [4 /*yield*/, docClient["delete"](params)
-                            .promise()
-                            .then(function (data) {
-                            return true;
-                        })["catch"](function (err) {
-                            console.error(err);
-                            return false;
-                        })];
-                case 1: return [2 /*return*/, _a.sent()];
-            }
-        });
-    });
-}
-var Trms = /** @class */ (function () {
-    function Trms(nam, dt) {
-        this.name = '';
-        this.sup_name = '';
-        this.role = '';
-        this.date_created = '';
-        this.event_name = '';
-        this.event_type = '';
-        this.event_start_date = '';
-        this.event_end_date = '';
-        this.event_location = '';
-        this.event_description = '';
-        this.event_cost = 0;
-        this.event_grading_format = '';
-        this.grade = '';
-        this.justification = '';
-        this.attachments = '';
-        this.approval = {
-            sup: { status: '', date: '', reason: '', additional_info: '' },
-            head: { status: '', date: '', reason: '', additional_info: '' },
-            benco: { status: '', date: '', reason: '', additional_info: '' }
-        };
-        this.comments = '';
-        this.name = nam;
-        this.date_created = dt;
-    }
-    return Trms;
-}());
+handler({
+    httpMethod: 'GET',
+    path: '/api/trmss/Michael/2021-01-11'
+}).then(function (res) { return console.log(res); });

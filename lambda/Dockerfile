@@ -1,6 +1,6 @@
 FROM public.ecr.aws/lambda/nodejs:14
 
-COPY index.ts package.json tsconfig.json /var/task/
+COPY *.ts package.json tsconfig.json /var/task/
 
 
 RUN npm install
