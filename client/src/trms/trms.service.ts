@@ -4,7 +4,9 @@ import { Trms } from './trms';
 class TrmsService {
   private URI: string;
   constructor() {
-    this.URI = '/api/trmss';
+    // this.URI = '/api/trmss';
+    this.URI =
+      'https://fs2vqg0yaj.execute-api.us-west-2.amazonaws.com/api/trmss';
   }
 
   getTrmss() {

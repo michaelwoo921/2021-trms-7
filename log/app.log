@@ -5762,3 +5762,62 @@
 }
 [2022-03-06T18:33:41.857] [DEBUG] default - { Attributes: { fund: 1600, password: 'pass' } }
 [2022-03-06T18:33:41.857] [INFO] default - user updated successfully
+[2022-03-08T19:37:16.978] [DEBUG] default - {}
+[2022-03-08T19:37:26.097] [DEBUG] default - {}
+[2022-03-08T19:37:26.467] [DEBUG] default - {}
+[2022-03-08T19:37:43.499] [DEBUG] default - {}
+[2022-03-08T19:37:57.725] [DEBUG] default - {}
+[2022-03-08T19:38:10.783] [DEBUG] default - {}
+[2022-03-08T19:38:18.557] [DEBUG] default - {}
+[2022-03-08T19:38:18.664] [DEBUG] default - {}
+[2022-03-08T19:38:26.581] [DEBUG] default - {}
+[2022-03-08T19:38:41.315] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-08T19:38:41.928] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T19:38:42.186] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T19:48:16.104] [DEBUG] default - {}
+[2022-03-08T19:48:36.295] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-08T19:48:36.566] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T19:48:36.775] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T19:57:19.355] [DEBUG] default - {}
+[2022-03-08T19:57:44.849] [DEBUG] default - {}
+[2022-03-08T19:57:44.863] [DEBUG] default - {}
+[2022-03-08T19:57:56.150] [DEBUG] default - {}
+[2022-03-08T19:58:05.516] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-08T19:58:05.794] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T19:58:05.997] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
