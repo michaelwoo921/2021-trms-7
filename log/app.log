@@ -5821,3 +5821,100 @@
   sup_name: 'Richard',
   name: 'Michael'
 }
+[2022-03-08T20:27:50.485] [DEBUG] default - {}
+[2022-03-08T20:28:06.800] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-08T20:28:07.081] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:28:07.325] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:29:19.020] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:34:17.650] [DEBUG] default - {}
+[2022-03-08T20:34:31.363] [DEBUG] default - { name: 'Michael', password: 'pass', role: '', sup_name: '', fund: 0 } req.body
+[2022-03-08T20:34:31.953] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:34:32.462] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:34:52.867] [INFO] default - Successfully updated trms
+[2022-03-08T20:34:54.210] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:35:20.462] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:35:35.464] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:35:59.693] [INFO] default - Successfully updated trms
+[2022-03-08T20:36:01.049] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:36:23.084] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:36:28.811] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:36:34.573] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
+[2022-03-08T20:36:41.725] [DEBUG] default - {
+  fund: 1600,
+  password: 'pass',
+  role: 'Employee',
+  sup_name: 'Richard',
+  name: 'Michael'
+}
